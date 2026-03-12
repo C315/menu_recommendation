@@ -1,6 +1,15 @@
 .env
+
+# py
 __pycache__/
 *.pyc
+
+# 환경 세팅
 venv/
-users.json
 .venv/
+
+# User info
+users.json
+
+# Dependency
+uv.lock
