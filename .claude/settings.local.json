@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(D:/git/menu_recommendation/.venv/Scripts/python.exe -m pip install langchain-google-genai langgraph 2>&1 | tail -10)",
+      "Bash(cd D:/git/menu_recommendation && D:/git/menu_recommendation/.venv/Scripts/python.exe -c \"from tools import all_tools; print\\('Tools:', [t.name for t in all_tools]\\)\" 2>&1)",
+      "Bash(cd D:/git/menu_recommendation && D:/git/menu_recommendation/.venv/Scripts/python.exe -c \"from agent import invoke; print\\('Agent import OK'\\)\" 2>&1)"
+    ]
+  }
+}
